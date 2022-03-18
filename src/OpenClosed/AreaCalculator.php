@@ -4,6 +4,9 @@ namespace App\OpenClosed;
 
 class AreaCalculator
 {
+
+//    Objects or entities should be open for extension but closed for modification.
+
     /**
      * @param ShapeInterface ...$shapes
      * @return float|int

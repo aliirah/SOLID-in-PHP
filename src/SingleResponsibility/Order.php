@@ -4,6 +4,9 @@ namespace App\SingleResponsibility;
 
 class Order
 {
+
+//    A class should have one and only one reason to change, meaning that a class should have only one job.
+
     protected array $items;
     protected OrderOutputInterface $outputDriver;
 
